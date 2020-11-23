@@ -111,7 +111,7 @@ body {
   color: #ea4a28;
 }
 
-/* =============== TASK- 05 ================== */
+/* =============== TASK- 06 ================== */
 
 .container-task-06 > input {
   padding: 10px;
@@ -134,4 +134,17 @@ body {
 
 #validation-input.invalid {
   border-color: #f44336;
+}
+
+/* =============== TASK- 07 ================== */
+
+.container-task-07 {
+  padding-left: 30px;
+}
+
+.container-task-07 > span {
+  color: #857777;
+  display: block;
+  margin-top: 30px;
+  font-weight: bold;
 }
