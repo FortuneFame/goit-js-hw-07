@@ -79,7 +79,7 @@ body {
   border-image-slice: 1;
 }
 
-/* =============== TASK- 03 ================== */
+/* =============== TASK- 04 ================== */
 
 .counter {
   margin-top: 50px;
@@ -92,4 +92,24 @@ body {
 }
 .counter > button {
   width: 50px;
+}
+
+/* =============== TASK- 05 ================== */
+
+.container {
+  margin-top: 50px;
+}
+.container > input {
+  color: #ea4a28;
+  padding: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.container > h1 > span {
+  color: #ea4a28;
 }
