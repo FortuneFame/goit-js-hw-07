@@ -21,7 +21,7 @@ function random() {
 function createBoxes(amount) {
   let basicSize = 30;
   let fragment = document.createDocumentFragment();
-  for (var i = 0; i < amount; i += 1) {
+  for (let i = 0; i < amount; i += 1) {
     let size = basicSize + i * 10;
     let div = document.createElement("div");
     div.style.cssText = `width: ${size}px; height: ${size}px; background-color: rgba( ${random()} , ${random()} , ${random()} )`;
