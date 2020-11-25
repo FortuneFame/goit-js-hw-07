@@ -16,12 +16,12 @@ const images = [
   },
 ];
 
-images.forEach(image => {
+images.forEach(({url, alt}) => {
   const listImagesRef = document.createElement('li');
   listImagesRef.classList.add('js-list')
   const imagesRef = document.createElement('img');
-  imagesRef.src = image.url;
-  imagesRef.alt = image.alt;
+  imagesRef.src = url;
+  imagesRef.alt = alt;
   imagesRef.classList.add('js-images')
   listImagesRef.appendChild(imagesRef);
   const listGalleryRef = document.querySelector('#gallery');
